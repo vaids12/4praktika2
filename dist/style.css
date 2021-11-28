@@ -59,7 +59,7 @@ form {
     position: relative;
 }
 
-.submit input {
+button {
     background-color: #1b1a4f;
     position: absolute;
     color: white;
@@ -71,8 +71,8 @@ form {
     cursor: pointer;
     transition: 1s;   
 }
-.submit input:hover{
-    background-color:#4382e0 ;
+button:hover{
+   opacity: 0.6;
 }
 
 
