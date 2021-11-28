@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4Praktika2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/style.css">
+
+    <link rel="stylesheet" href="./dist/style.css">
+</head>
+
+<body>
+    <h1>Classy Booking Form</h1>
+    <div class="container">
+        <form action="">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fullName">Full Name*</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="fullName">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">Email ID*</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="phone">Phone Number*</label>
+                </div>
+                <div class="col-75">
+                    <input type="phone" name="phone" id="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="depTime">Departure Date/Time*</label>
+                </div>
+                <div class="col-75">
+                    <input type="datetime" name="depTime" placeholder="dd-mm-yyyy">
+                    <select name="depTime" id=hr>
+                        <option value="0">HR</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <select name="depTime" id="min">
+                        <option value="0">Min</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <select name="depTime" id="am">
+                        <option value="1">AM</option>
+                        <option value="2">PM</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="depTime">Return Date/Time*</label>
+                </div>
+                <div class="col-75">
+                    <input type="datetime" name="retTime" placeholder="dd-mm-yyyy">
+                    <select name="retTime" id=hr>
+                        <option value="0">HR</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <select name="retTime" id="min">
+                        <option value="0">Min</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                    </select>
+                    <select name="retTime" id="am">
+                        <option value="1">AM</option>
+                        <option value="2">PM</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="pickAddress">Pickup Address*</label>
+                </div>
+                <div class="col-75">
+                    <textarea name="pickAddress" id="" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="destAddress">Destination Address*</label>
+                </div>
+                <div class="col-75">
+                    <textarea name="destAddress" id="" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="journeyType"> Journey Type*</label>
+                </div>
+                <div class="col-75">
+                    <select name="journeyType" id="journeyType">
+                        <option value="1"></option>
+                        <option value="2">Business</option>
+                        <option value="3">Vacation</option>
+                        <option value="4">Other</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="numberPassengers">Number of Passengers*</label>
+                </div>
+                <div class="col-75">
+                    <select name="numberPassengers" id="numberPassengers">
+                        <option value="">0</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="addMessage">Additional Message:</label>
+                </div>
+                <div class="col-75">
+                    <textarea name="addMessage" id="" rows="5"></textarea>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
