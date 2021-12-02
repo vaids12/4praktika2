@@ -3,63 +3,66 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
-    margin: 0 ;
+body {
+    margin: 0;
     padding: 0;
-    background-image: url( ./images/plane.jpg );
+    background-image: url(./images/plane.jpg );
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
 }
 
 
-h1{
+h1 {
     color: black;
     text-align: center;
     padding-top: 50px;
-   font-size: 45px;   
+    font-size: 45px;
 }
 
 
-textarea, .col-75 [type=phone], .col-75 [type=email] , 
+textarea,
+.col-75 [type=phone],
+.col-75 [type=email],
 .col-75 [type=text] {
     width: 325px;
 }
 
-    
-    
+
+
 
 form {
-   width: 600px;
-   height: 750px;
+    width: 600px;
+    height: 750px;
     background-color: #4d5054;
     margin: 0 auto;
-    padding:20px 0;
+    padding: 20px 0;
     opacity: 0.9;
-    
+
 }
 
 .row {
     display: flex;
     flex-flow: row nowrap;
-  
+
 }
 
 .col-25 {
     width: 35%;
     padding: 10px 0px 10px 30px;
     color: white;
-   
-}
-.col-75 {
-       padding: 10px 30px;   
-       
+
 }
 
-.submit {
+.col-75 {
+    padding: 10px 30px;
+
+}
+
+.button {
     position: relative;
 }
 
-button {
+.buttonSubmit {
     background-color: #1b1a4f;
     position: absolute;
     color: white;
@@ -69,11 +72,9 @@ button {
     border-radius: 7px;
     left: 365px;
     cursor: pointer;
-    transition: 1s;   
-}
-button:hover{
-   opacity: 0.6;
+    transition: 1s;
 }
 
-
-
+.buttonSubmit:hover {
+    opacity: 0.6;
+}
